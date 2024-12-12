@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif; /* Шрифт для всего сайта */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Размещение элементов по вертикали */
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Светлый фон */
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Добавлен отступ снизу */
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: left;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff; /* Синий цвет кнопки */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Более темный синий при наведении */
+}
+
+button + button {
+    margin-left: 10px; /* Расстояние между кнопками */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 22px;
+    color: #555;
+    text-align: center;
+    margin-top: 10px; /* Уменьшен отступ сверху */
+}
